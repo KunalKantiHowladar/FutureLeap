@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutureLeap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container gorgeous">
+        <h1 class="gorgeous-title">FutureLeap</h1>
+        <p class="subtitle gorgeous-subtitle">✨ Discover the future with the power of <span class="ai-gradient">AI & ML</span>! ✨</p>
+        <form id="dataForm" class="gorgeous-form">
+            <div class="input-group">
+                <label for="year" class="gorgeous-label">Enter a year:</label>
+                <input type="number" id="year" class="gorgeous-input" placeholder="e.g. 2024" min="0" required>
+            </div>
+            <button type="submit" class="gorgeous-btn">Get Next Year <span class="btn-icon">→</span></button>
+        </form>
+        <div id="loading" class="loading-box gorgeous-loading" style="display:none;"></div>
+        <div id="result" class="result-box gorgeous-result" style="display:none;"></div>
+        <div class="footer gorgeous-footer">Made with <span style="color:#f87171;">&#10084;</span> by Kunal</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
